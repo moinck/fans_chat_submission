@@ -1,0 +1,19 @@
+
+> fans-chat@1.0.0 test:ci
+> jest --runInBand --ci
+
+PASS __tests__/purchase-idempotency.test.ts
+PASS __tests__/entitlement-delay.test.ts
+PASS __tests__/chat-restart-recovery.test.ts
+PASS __tests__/chat-idempotency.test.ts
+
+Test Suites: 4 passed, 4 total
+Tests:       4 passed, 4 total
+Snapshots:   0 total
+Time:        0.985 s, estimated 1 s
+Ran all test suites.
+
+Additional gates:
+- npm run typecheck: PASS
+- npm run lint: PASS
+- npx expo-doctor: PASS (21/21 checks)
